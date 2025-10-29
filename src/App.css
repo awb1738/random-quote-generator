@@ -1,0 +1,63 @@
+body {
+  background-color: #25486d;
+}
+
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  min-height: 100vh;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+
+#text {
+  color: white;
+  font-size: 30px;
+  opacity: 1;
+}
+
+#author {
+  color: white;
+  font-size: 26px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  opacity: 1;
+}
+
+
+#new-quote {
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  margin-left: 60px;
+  background-color: #808080;
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-size: 21px;
+  font-family: "Georgia", serif;
+}
+
+#new-quote:hover {
+  background-image: radial-gradient(circle, pink, #6888FE);;
+  cursor: pointer;
+}
+
+#tweet-quote {
+  margin-right: 2px;
+  margin-left: 0px;
+}
+
